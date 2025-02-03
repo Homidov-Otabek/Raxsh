@@ -1,0 +1,104 @@
+.promo-section {
+    background: linear-gradient(142.85deg, rgba(255, 255, 255, 0.44) -63.81%, rgba(153, 153, 153, 0.11) 69.62%);
+    text-align: left;
+    width: 100%;
+    border-radius: 8px;
+    color: #fff;
+    height: 554px;
+    border-bottom: 1px solid;
+  }
+  
+
+.promo-content{
+    margin-left: 190px;
+    padding-top: 106px;
+  
+  }
+  .promo-title{
+    font-size: 56px;
+    width: 416px;
+    height: 134px;
+  }
+  
+  .promo-text{
+    width: 557px;
+    height: 150px;
+    font-size: 20px;;
+  }
+  
+
+  .promo-button {
+    width: 265px;
+    display: inline-block;
+    padding: 16px 24px;
+    background-color: #fce702;
+    color: #000000;
+    font-weight: 600;
+    font-size: 18px;
+    text-decoration: none;
+    border-radius: 48px;
+    box-shadow: 0px 4px 128px rgba(252, 232, 3, 0.32), 0px 4px 64px rgba(252, 232, 3, 0.32);
+  } 
+
+  .tenis{
+    padding-top: 34px;
+
+  }
+
+
+  .qr{
+    position: absolute;
+    padding-left: 821px;
+    padding-top: 340px;
+    z-index: 1;
+  } 
+  
+  .football{
+    position: absolute;
+    padding-left: 763px;
+    padding-top: 47px;
+
+  }
+
+
+  .basket{
+    position: absolute;
+    padding-left: 1024px;
+    padding-top: 165px;
+    z-index: 0;
+  }
+.tenis-conainer{
+ display: flex;
+
+}  
+
+.tenis-text-block{
+  padding-top: 250px;
+}
+
+.tenis-text-big{
+font-size: 40px;
+font-weight: 800;
+line-height: 48px;
+text-align: center;
+text-underline-position: from-font;
+text-decoration-skip-ink: none;
+padding-bottom: 25px;
+
+}
+.tenis-txt{
+font-size: 20px;
+font-weight: 400;
+line-height: 30px;
+text-align: center;
+text-underline-position: from-font;
+text-decoration-skip-ink: none;
+width: 657px;
+
+}
+
+
+
+.tenis-text-big strong{
+color: #f1c40f;
+}
