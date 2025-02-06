@@ -1,0 +1,307 @@
+/* Мобильный вид (для экранов до 768px) */
+@media (max-width: 768px) {
+
+    /* .t{
+        outline: 4px solid red !important;
+    } */
+    /* Скрываем иконку футбола на мобильных устройствах */
+    .football {
+        display: none;
+    }
+
+    /* Скрываем иконку баскетбола */
+    .basket {
+        display: none;
+    }
+
+    /* QR-код слева */
+    .qr {
+        
+        display: block;
+        position: static; /* Убираем абсолютное позиционирование */
+        margin-top: 20px; /* Отступ сверху */
+        margin-left: auto; /* Центрируем по горизонтали */
+        margin-right: auto; /* Центрируем по горизонтали */
+        padding-left: 0px;
+        padding-top: 0px;
+        width: 222px; /* Ширина для центровки */
+    }
+
+    .promo-section {
+        height: auto; /* Убираем фиксированную высоту */
+        padding: 20px; /* Добавляем внутренний отступ */
+    }
+
+    .promo-content {
+        margin-left: 0;
+        padding-top: 40px;
+        text-align: left; /* Выравниваем текст по левому краю */
+    }
+
+    .promo-title {
+        font-size: 28px; /* Уменьшаем размер заголовка */
+        width: auto; /* Убираем фиксированную ширину */
+        margin-bottom: 20px; /* Отступ снизу */
+        text-align: center;
+        height: auto;
+    }
+
+    .promo-text {
+        font-size: 16px; /* Уменьшаем размер текста */
+        width: auto;
+        margin-bottom: 20px; /* Отступ снизу */
+        text-align: justify;
+    }
+
+    .promo-button {
+        width: 100%; /* Кнопка будет растягиваться на всю ширину */
+        padding: 14px 24px;
+        font-size: 16px; /* Уменьшаем размер шрифта */
+    }
+
+    .tenis-conainer {
+        flex-direction: column; /* Размещаем элементы вертикально */
+        align-items: center;
+    }
+
+    .tenis {
+        padding-top: 20px; /* Уменьшаем отступ сверху */
+    }
+
+
+    .tenis img {
+     /* Растягиваем изображение на всю высоту */
+     width: 340px;
+    }
+
+    .tenis-text-block {
+        padding-top: 20px; /* Уменьшаем отступ сверху */
+    }
+
+    .tenis-text-big {
+        font-size: 24px; /* Уменьшаем размер шрифта */
+        line-height: 32px; /* Уменьшаем межстрочный интервал */
+        text-align: center;
+        padding-bottom: 15px; /* Отступ снизу */
+    }
+
+    .tenis-txt {
+        font-size: 16px; /* Уменьшаем размер текста */
+        line-height: 24px;
+        text-align: center;
+        width: 100%; /* Убираем фиксированную ширину */
+        padding-bottom: 20px; /* Отступ снизу */
+    }
+
+
+
+/* promo end */
+
+
+
+/* Мобильный вид (для экранов до 768px) */
+
+/* Мобильный вид (для экранов до 768px) */
+@media (max-width: 768px) {
+    /* Заголовок */
+    .header {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+
+    /* Логотип */
+    .logo img {
+        height: 30px; /* Уменьшаем размер логотипа */
+    }
+
+    /* Контейнер для навигации */
+    .container {
+        flex-direction: column; /* Элементы будут располагаться вертикально */
+        align-items: center; /* Центрируем содержимое */
+        padding-bottom: 10px;
+    }
+ .menu{
+    margin-right: 0px;
+ }
+    /* Меню */
+    .menu ul {
+        display: flex;
+        flex-direction: column; /* Элементы меню будут располагаться вертикально */
+        gap: 20px;
+        align-items: center; /* Выравниваем меню по центру */
+    }
+
+    .menu ul li a {
+        font-size: 14px; /* Увеличиваем размер шрифта для удобства */
+        color: white;
+        text-align: center; /* Центрируем текст */
+    }
+
+    .menu ul li a:hover {
+        color: #f1c40f;
+    }
+
+    /* Кнопка "Бонус" */
+    .navigation {
+        width: 100%; /* Кнопка будет растягиваться на всю ширину */
+        padding: 14px;
+        font-size: 16px; /* Увеличиваем размер шрифта */
+        text-align: center; /* Текст по центру */
+        box-sizing: border-box;
+        background-color: #fce702; /* Делаем фон желтым */
+        color: #000000; /* Черный текст */
+        font-weight: 600;
+        border-radius: 48px;
+        transition: background-color 0.3s ease;
+    }
+
+    .navigation:hover {
+        background-color: #E6B800; /* Цвет кнопки при наведении */
+    }
+
+    /* Разделительная линия */
+    .divider {
+        display: none; /* Убираем разделительную линию на мобильных */
+    }
+
+    /* Баннер */
+    .banner {
+        display: flex;
+        justify-content: center;
+        height: 200px; /* Уменьшаем высоту баннера для мобильных */
+        margin-bottom: 20px; /* Уменьшаем отступ снизу */
+    }
+
+    .banner-image {
+        width: 100%; /* Ширина баннера будет 100% */
+        height: auto; /* Автоматическая высота */
+        object-fit: cover;
+        border-radius: 10px;
+        margin-left: 15px;
+        margin-right: 15px;
+    }
+
+    /* Стиль для меню в мобильной версии */
+    .menu ul li {
+        text-align: center; /* Выравниваем ссылки по центру */
+    }
+
+    .navigation {
+        margin-top: 10px;
+      margin-bottom: 10px;
+    }
+}
+
+
+
+
+/* header end */
+
+
+@media (max-width: 768px) {
+    /* Контейнер секции каналов */
+    .channels-section {
+        padding: 20px;
+        margin-top: 20px;
+    }
+
+    /* Заголовок */
+    .channels-section h2 {
+        font-size: 24px;
+        text-align: center;
+        margin-top: 20px;
+    }
+
+    .channels p{
+      margin: 0px;
+      padding-top: 25px;
+    }
+
+    /* Сетка карточек */
+    .channels-grid {
+        grid-template-columns: repeat(auto-fit, minmax(150px, 1fr)); /* 2-3 колонки на мобильных */
+        gap: 20px;
+    }
+
+    /* Карточка канала */
+    .channel-card {
+        width: auto;
+        height: auto;
+        margin-top: 20px;
+        padding: 15px;
+        justify-content: center;
+        align-items: center;
+    }
+
+    /* Логотип канала */
+    .channel-logo {
+        width: 80px; /* Уменьшаем размер логотипа */
+        height: auto;
+        margin-bottom: 15px;
+    }
+
+    /* Информация о канале (будет ниже карточки) */
+    .channel-info {
+        width: 100%;
+        display: flex;
+        flex-direction: column; /* Вертикальное расположение */
+        align-items: center; /* Центрируем элементы */
+        padding: 10px 0;
+        margin-top: 10px;
+    }
+
+    /* Название канала */
+    .channel-name {
+        font-size: 16px;
+        margin-bottom: 10px;
+        text-align: center;
+    }
+
+    /* Кнопка "Live" */
+    .live-btn {
+        width: 120px;
+        font-size: 12px;
+        padding: 8px;
+        background-color: rgba(252, 232, 3, 1);
+        color: #e80e0e;
+        border: none;
+        border-radius: 15px;
+        cursor: pointer;
+        box-shadow: 0px 4px 128px 0px rgba(252, 232, 3, 0.32);
+    }
+
+    /* Вектор для пагинации */
+    .vector {
+        width: 7px;
+        height: 7px;
+    }
+
+    /* Пагинация */
+    .pagination {
+        justify-content: center;
+        margin-top: 20px;
+    }
+
+    /* Кнопки пагинации */
+    button {
+        padding: 10px;
+        background-color: transparent;
+        border-radius: 50%;
+    }
+
+    /* Активная кнопка пагинации */
+    button.active .circle {
+        fill: yellow;
+    }
+
+    button.active .arrow {
+        stroke: black;
+    }
+}
+
+
+
+
+
+
+}
